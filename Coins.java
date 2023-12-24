@@ -8,6 +8,6 @@ public class Coins
 		 //calculate the rest affter dividing by 25 and print the result
          int quarter = (a/25);
          int cent = (a%25);
-         System.out.println( "use " + quarter + " quarters " + "and " + cent + " cents" ); 
+         System.out.println( "Use " + quarter + " quarters " + "and " + cent + " cents" ); 
     }
 }  

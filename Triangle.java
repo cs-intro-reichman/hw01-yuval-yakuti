@@ -11,7 +11,7 @@ public class Triangle
       boolean Triangle =((a+b)>c && (a+c)>b && (b+c)>a);
 
 	  //print true or false  
-      if (Triangle) System.out.println( a + ", " + b + ", " + c + ":" + " True" ); 
-      else System.out.println(  a + ", " + b + ", " + c + ":" + " False" );  
+      if (Triangle) System.out.println( a + ", " + b + ", " + c + ":" + " true" ); 
+      else System.out.println(  a + ", " + b + ", " + c + ":" + " false" );  
     }     
 }
