@@ -19,9 +19,9 @@ public class GenThree
          System.out.println(m);
          System.out.println(l);
 
-         //find the minimal number bettwin the 3 numbers (n,m,l)
-         if (n<m&&n<l) System.out.println( "The minimal generated number was " + n);
-         if (m<l&&m<n) System.out.println( "The minimal generated number was " + m);
-         if (l<m&&l<n) System.out.println( "The minimal generated number was " + l);
+         //find the minimal number between the 3 numbers (n,m,l)
+         int min = Math.min(n, m);
+         min = Math.min(min, l);
+         System.out.println("The minimal generated number was " + min);
     }
 }    
