@@ -2,7 +2,7 @@ public class LinearEq
 {
     public static void main(String[] args) 
     {
-        //Declares 3 variable as double values as long as 'a' not = 0
+        //Declares 3 variables as double values as long as 'a' not = 0
         double a = Double.parseDouble (args[0]);
         double b = Double.parseDouble (args[1]);
         double c = Double.parseDouble (args[2]);
